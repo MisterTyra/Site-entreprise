@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon parcours scolaire</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <link href="style.css" rel="stylesheet">
+</head>
+<!--NavBar-->
+<body class="bg-dark">
+  <nav class="navbar navbar-expand-lg bg-light m-2 sticky-top rounded-pill" id="nav">
+
+    <div class="container">
+
+
+      <a class="navbar-brand" href="index.html">
+        <img id="logo" src="ETHAN__1_-removebg-preview.png" alt="Bootstrap" width="75" height="75">
+      </a>
+
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+
+        <ul class="navbar-nav">
+
+          <li class="nav-item">
+            <a class="nav-link active text-dark fs-5" href="Qui_suisje.html">Mon parcours scolaire</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-dark fs-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Experiences professionnelles
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li>
+                <a class="dropdown-item" href="stage1.html">Stage 1er année
+
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="Stage2.html">Stage 2ème année
+                </a>
+              </li>
+            </ul>
+            <li class="nav-item">
+              <a class="nav-link active text-dark fs-5" href="projet.html">Projet</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active text-dark fs-5" href="veille.html">Veille technologique</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active text-dark fs-5" href="contact.php">Contact</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+  </nav>
+      <!-- Frise chronologique-->
+  <div class="box-timeline">
+  
+    <div class="ligne"></div>
+
+    <div class="rond r1" data-anim="1">&#127944;</div>
+    <div class="rond r2" data-anim="2">&#128167;</div>
+    <div class="rond r3" data-anim="3">&#128187;</div>
+
+
+    <div class="box b1 rounded-pill" id="box1">
+      <br>
+        <h2 class="text-center">2021-En cours : BTS SIO</h2>
+        <p class="text-center">
+            En cours d'obtention du BTS service informatique aux organisations option solutions logicielles et applications métiers.
+        </p>
+    </div>
+    <div class="box b2 rounded-pill" id="box2">
+      <br>
+        <h2 class="text-center">2018-2021 : Lycée</h2>
+        <p class="text-center">
+            Obtention du Baccaleauréat en spécialité Mathématique et Science de la Vie et de la Terre dans le lycée Maurice Eliot à Epinay-Sous-Sénart 
+        </p>
+    </div>
+    <div class="box b3 rounded-pill" id="box3">
+      <br>
+        <h2 class="text-center">2014-2018 : Collège</h2>
+        <p class="text-center">
+          Obtention du brevet des collèges dans le collège Dunoyer de Ségonzac à Boussy St Antoine.
+        </p>
+    </div>
+  </div>
+  
+    <script src="app.js"></script>
+</body>
+</html>
