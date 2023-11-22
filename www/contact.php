@@ -34,7 +34,7 @@ function test_input($data) {
     return $data;
 
 
-include 'index.html';
+include 'index.php';
 }
 ?>
 
